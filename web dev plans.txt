@@ -1,0 +1,19 @@
+Notes for web dev
+#. change logo to the the "kubecart logo" in the database folder.
+1. when the section of bank transfer is clicked,link to a page showing my opay bank details which is Acc no -8167263662 the acc name is Elvis ikeh, and another bank account details which shows
+2. change all the dollar currency symbols to naira so therefore let the goods be bought in naira
+3. when the page is clicked on refresh then clear all shopping history or purchases from the cart section or when it is clicked on home
+4. add another section in the different shopping sections named beauty products and cosmetics
+5. link the (new arrivals page) to a new page and show all the latest deals pictures
+6. also link the view deals button to the new arrivals page
+7. after the transaction is successful create a confirm payment button at the bank transfer page which would automatically send a message to the nigerian number +234 8167263662
+8. then after the confirm payment button is clicked link page to a new page named shipping details where the person would fill in his/her shipping details(nigerians only)
+9. after payment and shipping details is completed createa button that when clicked would link to a new website showing appreciation message like thanks for shopping with us and also verification number whih is +234 8167263662 in order to verify order placed.
+10.link the "contact" button to a beautiful page showing and describing as contact us with these customer care hotlines the numbers are +234 8167263662, +234 8033522914, +234 8063532990
+11. link that view all products button in the home page to the shop now page
+12. make the database very strong and protected against security threats especially in the section for online transactions!
+13. make all the pictures in the website and database unsavable or undownloadable
+14.create another section in the different shopping sections named clothing accesories
+15. link that see all categories button to a the"all section" in the shopping list
+
+

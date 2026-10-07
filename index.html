@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeCart | Online Shopping</title>
+    <meta
+      name="description"
+      content="KubeCart is a modern online shopping website for fashion, gadgets, home goods, and everyday essentials."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="KubeCart logo">
+          <img src="database/logo.png" alt="KubeCart logo" class="brand-logo" />
+          <span>KubeCart</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#deals">Deals</a>
+          <a href="new-arrivals.html">New Arrivals</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="search.html" class="icon-btn" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 015.88 12.8l4.4 4.4 1.41-1.41-4.4-4.4A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/></svg>
+          </a>
+          <button class="icon-btn" aria-label="Wishlist">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35 10.55 20C5.4 15.36 2 12.28 2 8.5A4.5 4.5 0 016.5 4c1.74 0 3.41.81 4.5 2.09A6.2 6.2 0 0115.5 4 4.5 4.5 0 0120 8.5c0 3.78-3.4 6.86-8.55 11.5L12 21.35z"/></svg>
+          </button>
+          <button class="cart-pill" aria-label="Shopping cart">
+            Cart <span class="cart-count">3</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Limited time offer</span>
+            <h1>Smart deals for better living.</h1>
+            <p>
+              Discover premium essentials, trend-forward fashion, and gadgets
+              designed to upgrade your everyday life.
+            </p>
+            <div class="hero-actions">
+              <a href="products.html" class="primary-btn">Shop now</a>
+              <a href="products.html" class="secondary-btn">View deals</a>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>25k+</strong><span>Happy shoppers</span></li>
+              <li><strong>4.8/5</strong><span>Customer rating</span></li>
+              <li><strong>2-day</strong><span>Fast delivery</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured product image">
+            <div class="promo-card promo-card-main">
+              <img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80"
+                alt="Modern wireless headphones"
+              />
+              <div class="promo-badge">New arrival</div>
+            </div>
+            <div class="mini-card mini-card-top">
+              <span>Wireless audio</span>
+              <strong>₦129</strong>
+            </div>
+            <div class="mini-card mini-card-bottom">
+              <span>Free shipping</span>
+              <strong>On orders ₦50+</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories container" aria-label="Popular categories">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow alt">Browse by category</span>
+            <h2>Shop what you love</h2>
+          </div>
+          <a href="products.html#all-products" class="text-link">See all categories</a>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card">
+            <div class="category-icon">🧥</div>
+            <h3>Fashion</h3>
+            <p>Fresh styles for every season.</p>
+          </article>
+          <article class="category-card">
+            <div class="category-icon">🎧</div>
+            <h3>Electronics</h3>
+            <p>Tech essentials built for life.</p>
+          </article>
+          <article class="category-card">
+            <div class="category-icon">🏠</div>
+            <h3>Home</h3>
+            <p>Comfort-driven décor and tools.</p>
+          </article>
+          <article class="category-card">
+            <div class="category-icon">🧴</div>
+            <h3>Beauty</h3>
+            <p>Care products that feel premium.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="shop" class="products container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow alt">Featured products</span>
+            <h2>Best sellers this week</h2>
+          </div>
+          <a href="#" class="text-link">View all products</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="badge">Hot</div>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Red sneaker" />
+            <div class="product-body">
+              <div class="product-meta">
+                <span>Footwear</span>
+                <span>⭐ 4.9</span>
+              </div>
+              <h3>Urban Runner Pro</h3>
+              <div class="product-row">
+                <strong>₦120</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="badge">Sale</div>
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=80" alt="Smartwatch" />
+            <div class="product-body">
+              <div class="product-meta">
+                <span>Wearables</span>
+                <span>⭐ 4.8</span>
+              </div>
+              <h3>Nova Smartwatch</h3>
+              <div class="product-row">
+                <strong>₦199</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="badge">New</div>
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" alt="Modern chair" />
+            <div class="product-body">
+              <div class="product-meta">
+                <span>Furniture</span>
+                <span>⭐ 4.7</span>
+              </div>
+              <h3>Luna Accent Chair</h3>
+              <div class="product-row">
+                <strong>₦240</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="badge">Best</div>
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80" alt="Headphones" />
+            <div class="product-body">
+              <div class="product-meta">
+                <span>Audio</span>
+                <span>⭐ 4.9</span>
+              </div>
+              <h3>Pulse Headphones</h3>
+              <div class="product-row">
+                <strong>₦89</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="deals" class="deals">
+        <div class="container deals-wrap">
+          <div class="deal-copy">
+            <span class="eyebrow">Weekend special</span>
+            <h2>Up to 60% off selected essentials</h2>
+            <p>
+              Refresh your space and upgrade your routine with discounts on the
+              latest home, tech, and lifestyle picks.
+            </p>
+            <a href="#shop" class="primary-btn">Explore deals</a>
+          </div>
+
+          <div class="deal-cards">
+            <div class="deal-item">
+              <span>Home bundle</span>
+              <strong>Save 30%</strong>
+            </div>
+            <div class="deal-item highlight">
+              <span>Tech drop</span>
+              <strong>New low prices</strong>
+            </div>
+            <div class="deal-item">
+              <span>Beauty picks</span>
+              <strong>Buy 2 get 1 free</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features container" aria-label="Store advantages">
+        <div class="feature-box">
+          <div class="feature-icon">🚚</div>
+          <h3>Free shipping</h3>
+          <p>Orders over ₦50 ship free.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">🔒</div>
+          <h3>Secure checkout</h3>
+          <p>SSL encrypted payments with ease.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">↩️</div>
+          <h3>Easy returns</h3>
+          <p>30-day hassle-free policy.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span>KubeCart</span>
+          </div>
+          <p>Shop smarter with premium essentials for home, tech, and lifestyle.</p>
+        </div>
+
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">New arrivals</a></li>
+            <li><a href="#">Best sellers</a></li>
+            <li><a href="#">Gift cards</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Join our newsletter</h4>
+          <form class="newsletter">
+            <input type="email" placeholder="Email address" aria-label="Email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 KubeCart. All rights reserved.</span>
+        <span>Privacy Policy · Terms</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

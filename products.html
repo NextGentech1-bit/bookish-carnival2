@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeCart | Latest Deals & Offers</title>
+    <meta
+      name="description"
+      content="Browse the latest deals and offers in clothes, jewelry, shoes, gadgets, home equipment, and hotel cutlery and plate sets."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="catalog-page">
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="KubeCart home">
+          <img src="database/logo.png" alt="KubeCart logo" class="brand-logo" />
+          <span>KubeCart</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="products.html" class="active-link">Shop</a>
+          <a href="#deals">Deals</a>
+          <a href="#new">New Arrivals</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="search.html" class="icon-btn" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 015.88 12.8l4.4 4.4 1.41-1.41-4.4-4.4A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/></svg>
+          </a>
+          <button class="cart-pill" aria-label="Shopping cart">
+            Cart <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="catalog-main">
+      <section class="catalog-header container">
+        <div class="catalog-copy">
+          <span class="eyebrow">Latest deals & offers</span>
+          <h1>Fresh picks for your everyday life</h1>
+          <p>
+            Discover trending clothes, beautiful jewelry, premium shoes, smart gadgets,
+            modern home essentials, and hotel-ready cutlery and plates.
+          </p>
+        </div>
+
+        <div class="catalog-highlight">
+          <span>Weekend savings</span>
+          <strong>Up to 60% OFF</strong>
+          <small>Selected items across all categories</small>
+        </div>
+      </section>
+
+      <section class="container catalog-toolbar">
+        <div class="category-pills" aria-label="Product categories">
+          <button class="pill active" data-filter="all">All</button>
+          <button class="pill" data-filter="Clothes">Clothes</button>
+          <button class="pill" data-filter="Jewelry">Jewelry</button>
+          <button class="pill" data-filter="Shoes">Shoes</button>
+          <button class="pill" data-filter="Gadgets">Gadgets</button>
+          <button class="pill" data-filter="Home Equipment">Home Equipment</button>
+          <button class="pill" data-filter="Hotel Cutlery & Plates">Hotel Cutlery & Plates</button>
+          <button class="pill" data-filter="Clothing Accesories">Clothing Accesories</button>
+          <button class="pill" data-filter="Beauty Products and Cosmetics">Beauty Products and Cosmetics</button>
+        </div>
+      </section>
+
+      <section class="container" id="all-products">
+        <div class="product-grid catalog-grid" id="catalog-grid"></div>
+      </section>
+
+      <section id="deals" class="container deals-strip">
+        <div class="deal-banner">
+          <div>
+            <span class="eyebrow alt">Special offer</span>
+            <h2>Buy more, save more</h2>
+          </div>
+          <p>Get free delivery on orders above ₦150 and extra cashback on premium bundles.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span>KubeCart</span>
+          </div>
+          <p>Shop smarter with premium essentials for home, tech, fashion, and hospitality.</p>
+        </div>
+
+        <div>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Jewelry</a></li>
+            <li><a href="#">Shoes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Stay updated</h4>
+          <form class="newsletter">
+            <input type="email" placeholder="Email address" aria-label="Email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 KubeCart. All rights reserved.</span>
+        <span>Privacy Policy · Terms</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

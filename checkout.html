@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeCart | Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="checkout-page">
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="KubeCart home">
+          <img src="database/logo.png" alt="KubeCart logo" class="brand-logo" />
+          <span>KubeCart</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="products.html">Shop</a>
+          <a href="#">Deals</a>
+          <a href="#">New Arrivals</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="cart-pill" aria-label="Shopping cart">
+            Cart <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="checkout-main container">
+      <section class="checkout-box">
+        <div class="checkout-summary">
+          <div class="summary-header">
+            <span class="eyebrow">Your cart</span>
+            <h1>Items selected</h1>
+          </div>
+
+          <div class="cart-items" id="cart-items">
+            <p class="empty-cart">Your cart is empty.</p>
+          </div>
+
+          <div class="order-total">
+            <div><span>Subtotal</span><strong id="subtotal">₦0.00</strong></div>
+            <div><span>Shipping</span><strong>Free</strong></div>
+            <div class="grand-total"><span>Total</span><strong id="total">₦0.00</strong></div>
+          </div>
+        </div>
+
+        <div class="payment-panel">
+          <div class="summary-header">
+            <span class="eyebrow alt">Payment</span>
+            <h2>Choose a payment method</h2>
+          </div>
+
+          <div class="payment-options">
+            <label class="payment-option">
+              <input type="radio" name="payment" checked />
+              <span>Bank transfer</span>
+            </label>
+            <label class="payment-option">
+              <input type="radio" name="payment" />
+              <span>Gift card</span>
+            </label>
+            <label class="payment-option">
+              <input type="radio" name="payment" />
+              <span>Bitcoin</span>
+            </label>
+            <label class="payment-option">
+              <input type="radio" name="payment" />
+              <span>PayPal</span>
+            </label>
+          </div>
+
+          <div class="payment-note">
+            <p>All payments are secured and protected with buyer confirmation.</p>
+          </div>
+
+          <button class="checkout-btn" type="button">Proceed to checkout</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

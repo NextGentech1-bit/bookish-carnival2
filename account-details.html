@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeCart | Account Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="checkout-page">
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="KubeCart home">
+          <img src="database/logo.png" alt="KubeCart logo" class="brand-logo" />
+          <span>KubeCart</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="products.html">Shop</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="cart-pill" href="checkout.html">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="account-details-main container">
+      <section class="account-details-box">
+        <span class="eyebrow">Payment details</span>
+        <h1>Complete your payment</h1>
+        <p>Use the account details below to complete your KubeCart order.</p>
+
+        <div class="account-details-list">
+          <div class="account-detail">
+            <span>Name of bank</span>
+            <strong>Opay</strong>
+          </div>
+          <div class="account-detail">
+            <span>Name of account</span>
+            <strong>Elvis Ikeh</strong>
+          </div>
+          <div class="account-detail">
+            <span>Account number</span>
+            <strong>8167263662</strong>
+          </div>
+        </div>
+
+        <button class="checkout-btn account-confirm-btn" id="confirm-payment" type="button">
+          Confirm payment
+        </button>
+        <div class="shipping-next" id="shipping-next">
+          <p>After sending the WhatsApp message, continue to enter your delivery details.</p>
+          <a class="account-back-link" href="shipping-details.html">Continue to shipping details</a>
+        </div>
+        <a class="account-back-link" href="checkout.html">Back to checkout</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

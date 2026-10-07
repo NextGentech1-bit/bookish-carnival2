@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeCart | New Arrivals</title>
+    <meta
+      name="description"
+      content="Explore the latest products and new arrivals at KubeCart."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="catalog-page">
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="KubeCart home">
+          <img src="database/logo.png" alt="KubeCart logo" class="brand-logo" />
+          <span>KubeCart</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="products.html">Shop</a>
+          <a href="products.html#deals">Deals</a>
+          <a href="new-arrivals.html" class="active-link">New Arrivals</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="search.html" class="icon-btn" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 015.88 12.8l4.4 4.4 1.41-1.41-4.4-4.4A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/></svg>
+          </a>
+          <button class="cart-pill" aria-label="Shopping cart">
+            Cart <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="catalog-main">
+      <section class="catalog-header container">
+        <div class="catalog-copy">
+          <span class="eyebrow">Just landed</span>
+          <h1>Latest products and arrivals</h1>
+          <p>Explore the newest additions across fashion, gadgets, jewelry, footwear, and more.</p>
+        </div>
+        <div class="catalog-highlight">
+          <span>Fresh for you</span>
+          <strong>New in store</strong>
+          <small>Discover the latest KubeCart picks</small>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="product-grid catalog-grid" id="latest-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <span>© 2026 KubeCart. All rights reserved.</span>
+        <a href="products.html">Continue shopping</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KubeCart | Search Products</title>
+    <meta
+      name="description"
+      content="Search for available products across clothing, jewelry, gadgets, home goods, shoes, and hospitality items."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="search-page">
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="KubeCart home">
+          <img src="database/logo.png" alt="KubeCart logo" class="brand-logo" />
+          <span>KubeCart</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="products.html">Shop</a>
+          <a href="search.html" class="active-link">Search</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="cart-pill" aria-label="Shopping cart">
+            Cart <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="search-main container">
+      <section class="search-panel">
+        <div class="search-header">
+          <span class="eyebrow">Find available products</span>
+          <h1>Search our catalog</h1>
+        </div>
+
+        <div class="search-box">
+          <input
+            id="product-search"
+            type="text"
+            placeholder="Search by product name or category..."
+            aria-label="Search products"
+          />
+          <button type="button" id="search-button">Search</button>
+        </div>
+
+        <div class="search-results" id="search-results"></div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span>KubeCart</span>
+          </div>
+          <p>Find trusted products across fashion, gadgets, home essentials, and hospitality supplies.</p>
+        </div>
+
+        <div>
+          <h4>Browse</h4>
+          <ul>
+            <li><a href="products.html">Shop all</a></li>
+            <li><a href="products.html">Latest deals</a></li>
+            <li><a href="products.html">Special offers</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Popular</h4>
+          <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Jewelry</a></li>
+            <li><a href="#">Home equipment</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Stay updated</h4>
+          <form class="newsletter">
+            <input type="email" placeholder="Email address" aria-label="Email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 KubeCart. All rights reserved.</span>
+        <span>Privacy Policy · Terms</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
